@@ -1,1 +1,196 @@
-/* CSS stillerinizi buraya girin */
+html {
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.hakkimizda {
+    width: 100%;
+    background-color: grey;
+    padding: 2rem;
+    margin: 0px auto;
+    border-bottom: 1px black;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0rem;
+    margin-top: 1rem;
+}
+
+.menu {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 10%;
+    font-size: 0.75rem;
+    margin: 0rem;
+    border-style: solid;
+    border-color: black;
+    margin-right: 10px;
+}
+
+.menu:hover {
+    background-color: white;
+    color: blue;
+    border-style: solid;
+    border-color: blue;
+}
+
+.menu:active {
+    background-color: blue;
+    color: rgb(8, 90, 8);
+    border-style: solid;
+    border-color: rgb(8, 90, 8);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hakkimizdaYazisi {
+    width: 45%;
+    text-align: left;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+.galeriFoto p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.galeriFoto img {
+    width: 75%;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 20%;
+}
+
+.galeri img {
+    width: 75%;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 20%;
+}
+
+footer {
+    width: 100%;
+  background-color: rgb(178, 172, 172);
+  padding-top: 1rem;
+  margin: 0px auto;
+  border-top: 1px solid black;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.medya-container a {
+    text-decoration: none;
+    color: black;
+    padding: 0rem 1rem;
+    margin-top: 5px;
+
+}
+
+.medya-container a:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 10%;
+    padding: 0rem 1rem;
+    margin-top: 5px;
+}
+
+.galeriFoto:hover {
+    background-color: grey;
+    border-radius: %20;
+    
+
+}
+
+.medya-container a:active {
+    background-color: blue;
+    color: white;
+    border-style: solid;
+    border-color: blue;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .hakkimizda {
+      width: 100%;
+      text-align: center;
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      padding-top: 1rem;
+    }
+  
+    .hakkimizdaYazisi a {
+      display: block;
+      width: 3rem;
+      margin: 0px auto;
+      padding: 0.5rem;
+    }
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0rem;
+      margin-top: 1rem;
+    }
+    h1 {
+      text-align: center;
+    }
+  
+    .medya-container {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem auto;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .medya-container a {
+      text-decoration: none;
+      color: black;
+      padding: 0rem 1rem;
+      margin: 0.5rem;
+    }
+    .hakkimizda {
+      padding: 1rem 0rem;
+    }
+  }
+  
